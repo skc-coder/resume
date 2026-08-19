@@ -1,31 +1,27 @@
-# Shekhar Chaurasiya - Curriculum Vitae & GitHub Pages Resume
+# Shekhar Chaurasiya - GitHub Pages Resume
 
-Personal online resume website configured for **GitHub Pages** (built on [online-cv](https://github.com/sharu725/online-cv) with a green theme and no photo) along with printable PDF generators (**RenderCV** Opal theme and **Typst**).
+Personal online resume website configured for **GitHub Pages** (built on [online-cv](https://github.com/sharu725/online-cv) with a green theme and no photo) along with a **Typst** PDF generator.
 
 ## Setup & Installation
 
-Clone the repository and install required tools:
+Clone the repository:
 
 ```bash
 git clone https://github.com/skc-coder/resume.git
 cd resume
-
-# Install RenderCV and Typst CLI
-uv tool install "rendercv[full]"
 ```
 
-## Running & Previewing
+## Running & Building
 
-### 1. Build All PDF Deliverables
+### 1. Build Typst PDF
 
-Render both RenderCV (Opal theme green) and Typst resume PDFs:
+Render your Typst resume PDF:
 
 ```bash
 ./scripts/build_all.sh
 ```
 
-- **RenderCV PDF (Opal Theme):** `pdf_deliverables/shekhar_chaurasiya_rendercv.pdf`
-- **Typst PDF:** `pdf_deliverables/shekhar_chaurasiya_typst.pdf`
+- **Typst PDF Output:** `pdf_deliverables/shekhar_chaurasiya_typst.pdf`
 
 ### 2. Run Jekyll GitHub Pages Locally
 
@@ -36,11 +32,9 @@ bundle exec jekyll serve
 
 Open `http://localhost:4000/resume/` in your browser.
 
-## Update & Run
+## How to Access Your Site on GitHub Pages
 
-Keep your local repository updated and rebuild all assets:
-
-```bash
-git pull origin main
-./scripts/build_all.sh
-```
+1. Go to your repository settings on GitHub: [github.com/skc-coder/resume/settings/pages](https://github.com/skc-coder/resume/settings/pages)
+2. Under **Build and deployment > Source**, select **Deploy from a branch**.
+3. Under **Branch**, select `master` and folder `/ (root)`, then click **Save**.
+4. Your website will be live at: **`https://skc-coder.github.io/resume/`**
