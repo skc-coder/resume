@@ -1,0 +1,84 @@
+cv:
+  name: Shekhar Chaurasiya
+  location: Jaipur, Rajasthan, India
+  email: shekharium@gmail.com
+  phone: "+918233949673"
+  website: https://skc-coder.github.io/resume/
+  social_networks:
+    - network: LinkedIn
+      username: shekharcha
+    - network: GitHub
+      username: skc-coder
+    - network: Leetcode
+      username: user5730ZD
+
+  sections:
+    summary:
+      - "Computer Science & Engineering graduate (**B.Tech, 9.1/10.0 CGPA**) with strong conceptual and practical grounding in low-level system programming, algorithm design, discrete mathematics, and Linux system administration."
+      - "Secured **All India Rank 2098** (GATE Score: 644/1000) out of **211,020 national candidates** in **GATE 2026 (CS & IT)** and **AIR 392** in **IIITH PGEE**."
+      - "Experienced in writing memory-efficient C applications, developing custom browser extensions (Manifest V3), automating workflows on Fedora Linux Workstation via Python & Shell scripts, and building cloud automation pipelines."
+
+    education:
+      - institution: Rajasthan Technical University
+        area: Computer Science & Engineering
+        degree: B.Tech (CGPA 9.1 / 10.0)
+        start_date: 2022-08
+        end_date: 2026-05
+        location: Jaipur, Rajasthan
+        highlights:
+          - "Relevant Coursework: Data Structures & Algorithms, Discrete Mathematics, Operating Systems, DBMS, Computer Networks, System Programming, Microprocessors, Linear Algebra, Abstract Algebra."
+
+    competitive_examinations:
+      - bullet: "**GATE 2026 (Computer Science & IT):** **All India Rank 2098** out of 211,020 registered candidates (Top ~0.99% nationwide) | **GATE Score: 644 / 1000**. Demonstrated comprehensive problem-solving mastery across core Computer Science disciplines."
+      - bullet: "**IIITH PGEE (IIIT Hyderabad PGEE):** **All India Rank 392** nationwide out of ~10,000--15,000 candidates."
+
+    certifications:
+      - bullet: "**Programming in Java (NPTEL National Elite):** Awarded **Elite Certificate (80% Score)** | Top performer out of 14,693 candidates (Jan--Apr 2024)."
+      - bullet: "**Problem Solving Through Programming in C (NPTEL National Elite):** Awarded **Elite Certificate (73% Score)** out of 3,749 candidates (Jan--Apr 2023)."
+      - bullet: "**Programming in Modern C++ (NPTEL Elite):** Awarded **61% Score** | 12-week course covering C++ specifications & STL (Jul--Oct 2023)."
+      - bullet: "**Salesforce Professional Certifications:** Salesforce Certified AI Associate (Credential ID: 6127333) & Salesforce Certified Associate (Credential ID: 6030076) (2025)."
+
+    technical_skills:
+      - label: Foundational Math
+        details: Discrete Mathematics, Linear Algebra, Abstract Algebra (Group Theory), Recurrence Relations
+      - label: Systems & Languages
+        details: C, Modern C++, Python, JavaScript, TypeScript, Bash, SQL
+      - label: Tools & Automation
+        details: Fedora Linux Workstation, Git, Vim/Emacs, Manifest V3 Browser Extensions, PyDrive, Telegram API
+
+    projects:
+      - name: GATE Exam Mock Test Interface & Portal Engine
+        summary: Web Application | JavaScript, HTML5, Local Engine
+        highlights:
+          - Built offline-first mock test portal mirroring official GATE exam environment with virtual keypad and real-time score analytics.
+      - name: Automated Test Series Data Pipeline & Archival Engine
+        summary: Data Engineering | Python, JSON Data Pipeline
+        highlights:
+          - Developed automated data extraction and JSON indexing pipeline to structure and archive practice test content.
+      - name: PyQHub -- University Semester PYQ Platform
+        summary: Web Application | TypeScript, Web Architecture
+        highlights:
+          - Developed web repository platform accumulating and searching previous year semester exam papers across technical universities.
+      - name: WebTools Browser Extension
+        summary: Chrome Extension | Manifest V3, JavaScript
+        highlights:
+          - Engineered Manifest V3 Chromium browser extension featuring global hotkey search bar focusing ('/' shortcut) and Brave-to-Google image redirects.
+      - name: FocusTube (YT Master) Productivity Extension
+        summary: Chrome Extension | JavaScript, Content Scripts
+        highlights:
+          - Built YouTube productivity extension to eliminate recommendation algorithms, hide feed clutter, and toggle UI elements dynamically.
+      - name: Telegram to Google Drive Automated Cloud Pipeline
+        summary: Cloud Automation | Python, Telegram API, PyDrive
+        highlights:
+          - Architected cloud ingestion pipeline streaming Telegram channel media directly into Google Drive via OAuth2.
+      - name: Infix to Postfix Converter & Expression Calculator Engine
+        summary: Systems Programming | C Language, Data Structures
+        highlights:
+          - Implemented mathematical expression parsing engine in C converting Infix to Postfix using custom stack structures.
+
+design:
+  theme: opal
+  colors:
+    name: rgb(27, 67, 50)
+    section_titles: rgb(27, 67, 50)
+    links: rgb(45, 106, 79)

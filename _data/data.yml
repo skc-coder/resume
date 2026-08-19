@@ -1,286 +1,176 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Resume Data for Shekhar Chaurasiya
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar: left or right
+  about: False
+  education: True
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Shekhar Chaurasiya
+  tagline: Computer Science & Engineering | Systems & Automation
+  avatar: # No profile picture as requested
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  email: shekharium@gmail.com
+  phone: "+91 823-394-9673"
+  timezone: Asia/Kolkata
+  citizenship: India
+  website: https://skc-coder.github.io/resume/
+  linkedin: shekharcha
+  github: skc-coder
+  leetcode: user5730ZD
+  pdf: assets/pdf/shekhar_chaurasiya_rendercv.pdf
 
   languages:
     title: Languages
     info:
     - idiom: English
-      level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+      level: Professional Working
+    - idiom: Hindi
+      level: Native / Bilingual
 
   interests:
-    title: Interests
+    title: Technical Focus & Interests
     info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+    - item: Systems Programming & Low-Level C/C++
+    - item: Automated Scripting & Linux Workflows
+    - item: Discrete Mathematics & Algorithm Design
+    - item: Cloud Pipeline & Data Archival Automation
 
 career-profile:
-  title: Career Profile
+  title: Professional Summary
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
-education:
-  title: Education
-  info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    Computer Science & Engineering graduate (**B.Tech, 9.1/10.0 CGPA**) with strong conceptual and practical grounding in low-level system programming, algorithm design, discrete mathematics, and Linux system administration. Secured **All India Rank 2098** (GATE Score: 644/1000) out of **211,020 national candidates** in **GATE 2026 (CS & IT)** and **AIR 392** in **IIITH PGEE**. Experienced in writing memory-efficient C applications, developing custom browser extensions (Manifest V3), automating workflows on Fedora Linux Workstation via Python & Shell scripts, and building cloud automation pipelines.
 
-experiences:
-  title: Experiences
+education:
+  title: Education & Academic Background
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - degree: B.Tech in Computer Science & Engineering
+    university: Rajasthan Technical University
+    time: Aug 2022 - May 2026
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      **CGPA:** 9.1 / 10.0
+      
+      *Relevant Coursework:* Data Structures & Algorithms, Discrete Mathematics, Operating Systems, DBMS, Computer Networks, System Programming, Microprocessors, Linear Algebra, Abstract Algebra (Group Theory).
+
+examinations:
+  title: Competitive Examinations & Verified Ranks
+  list:
+  - exam: GATE 2026 (Computer Science & IT)
+    rank: "All India Rank: 2098 out of 211,020 candidates (Top ~0.99% nationwide)"
+    score: "GATE Score: 644 / 1000"
+    details: Demonstrated comprehensive problem-solving mastery across core Computer Science disciplines.
+  - exam: IIITH PGEE (IIIT Hyderabad PGEE)
+    rank: "All India Rank: 392 nationwide"
+    details: Advanced postgraduate entrance exam covering core CS fundamentals, algorithms, and mathematics.
 
 certifications:
-  title: Certifications
+  title: Industry Certifications & Credentials
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: Programming in Java (NPTEL National Elite)
+    start: Jan 2024
+    end: Apr 2024
+    organization: MoE, Govt. of India / IIT Kharagpur
+    credentialid: Elite Certificate (80% Score)
+    credentialurl: https://github.com/skc-coder/resume
+    credentialname: NPTEL
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+      Awarded Elite Certificate with 80% score. Top performer out of 14,693 national candidates.
+  - name: Problem Solving Through Programming in C (NPTEL National Elite)
+    start: Jan 2023
+    end: Apr 2023
+    organization: MoE, Govt. of India / IIT Kharagpur
+    credentialid: Elite Certificate (73% Score)
+    credentialurl: https://github.com/skc-coder/resume
+    credentialname: NPTEL
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Awarded Elite Certificate with 73% score out of 3,749 national candidates.
+  - name: Programming in Modern C++ (NPTEL Elite)
+    start: Jul 2023
+    end: Oct 2023
+    organization: MoE, Govt. of India / IIT Kharagpur
+    credentialid: Certificate (61% Score)
+    credentialurl: https://github.com/skc-coder/resume
+    credentialname: NPTEL
+    details: |
+      12-week course covering Modern C++ specifications, STL, memory models, and OOP.
+  - name: Salesforce Certified AI Associate & Certified Associate
+    start: 2025
+    end: 2025
+    organization: Salesforce
+    credentialid: ID 6127333 & 6030076
+    credentialurl: https://github.com/skc-coder/resume
+    credentialname: Salesforce
+    details: Professional credentials in AI fundamentals and Salesforce ecosystem architecture.
 
 projects:
-  title: Projects
+  title: Key Engineering & Technical Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Selected engineering projects spanning web systems, browser extensions, cloud automation, and C/C++ low-level implementations.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: GATE Exam Mock Test Interface & Portal Engine
+    link: "https://github.com/skc-coder/gate-core"
+    tagline: "Web Application | JavaScript, HTML5, Local Engine. Built offline-first mock test portal mirroring official GATE exam environment with virtual keypad and real-time score analytics."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: Automated Test Series Data Pipeline & Archival Engine
+    link: "https://github.com/skc-coder/testseries_data"
+    tagline: "Data Engineering | Python, JSON Data Pipeline. Built automated data extraction & JSON indexing pipeline to structure and archive practice test content."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: PyQHub -- University Semester PYQ Platform
+    link: "https://github.com/skc-coder/pyqhub"
+    tagline: "Web Application | TypeScript, Web Architecture. Developed web repository platform accumulating and searching previous year semester exam papers across technical universities (RTU, AKTU)."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: WebTools Browser Extension (Manifest V3)
+    link: "https://github.com/skc-coder/webtools"
+    tagline: "Chrome Extension | Manifest V3, JavaScript. Engineered Chromium browser extension featuring global hotkey search bar focusing ('/' shortcut) and automatic Brave-to-Google image redirects."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: FocusTube (YT Master) Productivity Extension
+    link: "https://github.com/skc-coder/ytmaster"
+    tagline: "Chrome Extension | JavaScript, Content Scripts. Built YouTube productivity extension to eliminate recommendation algorithms, hide feed clutter, and toggle UI elements dynamically."
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: Telegram to Google Drive Automated Cloud Pipeline
+    link: "https://github.com/skc-coder/telegram-to-drive"
+    tagline: "Cloud Automation | Python, Telegram API, PyDrive. Architected cloud ingestion pipeline streaming Telegram channel media directly into Google Drive via OAuth2."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Infix to Postfix Converter & Expression Calculator Engine
+    link: "https://github.com/skc-coder/Infix-to-postfix-and-calculator"
+    tagline: "Systems Programming | C Language, Data Structures. Implemented mathematical expression parsing engine in C converting Infix to Postfix using stack structures."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Boolean Truth Table & Logic Gate Generator
+    link: "https://github.com/skc-coder/truth-table"
+    tagline: "Discrete Math & Logic | Python. Automated Boolean truth table evaluator parsing arbitrary logical expressions across all 2^n variable combinations."
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  - title: Sudoku Solver Engine
+    link: "https://github.com/skc-coder/Sudoku-Solver"
+    tagline: "Algorithms | C++, Backtracking. Built efficient 9x9 Sudoku solver using recursive backtracking and constraint satisfaction logic in C++."
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+  - title: Fedora Linux Dotfiles & System Workflows
+    link: "https://github.com/skc-coder/.dotfiles"
+    tagline: "DevOps & System Admin | Bash, Shell, Vim/Emacs. Personal Fedora Linux dotfiles, shell aliases, modal editing configs, and terminal automation shortcuts."
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Technical Skills & Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: Discrete Math & Foundational Mathematics
     level: 95%
 
-  - name: Ruby on Rails
+  - name: C & Modern C++ (OOP, Pointers, Memory)
+    level: 92%
+
+  - name: Python & Automation Scripting (PyDrive, Telegram API)
+    level: 92%
+
+  - name: Linux Systems Administration (Fedora Workstation, Shell)
+    level: 90%
+
+  - name: Browser Extension Development (Manifest V3, JS)
+    level: 88%
+
+  - name: DBMS & SQL (Normalization, Relational Algebra)
     level: 85%
 
-  - name: Sketch & Photoshop
-    level: 60%
-
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="https://github.com/skc-coder" target="_blank">Shekhar Chaurasiya</a> | Powered by GitHub Pages
